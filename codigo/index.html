@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="pt-br">
     <head>
-        <title>adv</title>
+        <title>Leo araújo</title>
         <meta charset="utf-8" />
         <meta
             name="viewport"
@@ -14,8 +14,12 @@
             crossorigin="anonymous"
         />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="shortcut icon" href="/img-font/favicon.ico" type="image/x-icon">
         
-        <style>
+        <style> 
+        body{
+          background-color: rgba(0, 0, 0, 0.932);
+        }
 
         @font-face {
             font-family: 'strl';
@@ -49,6 +53,21 @@
             background-size: cover;
 
         }
+        .img{
+          height: 100px;
+        }
+        .astro{
+          height: 700px;
+          margin-left: 170px;
+          margin-top: -150px;
+        }
+        .back{
+          background-image: url(/img-font/terra.png);
+          background-position: center center;
+          background-repeat: no-repeat;
+          background-size: contain;
+          margin-bottom: 200px;
+        }
         </style>
     </head>
 
@@ -56,16 +75,16 @@
         <header>
             <div class="container">
 
-                <nav class="mb-5 navbar navbar-expand-lg bg-white ">
+                <nav class="mb-5 navbar navbar-expand-lg bg-" data-bs-theme="dark">
                     <div class="container">
                       <!-- Brand -->
                       <div id="name">
-                        <p class="text-success fs-1 font">Araújo...</p>
+                        <img src="/img-font/logo.png" alt="" class="img">
                       </div>
                   
                       <!-- Toggler -->
                       <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon border-0 shadow"></span>
                       </button>
                   
                       <!-- Collapse -->
@@ -74,25 +93,23 @@
                         <!-- Toggler -->
                         <!-- Navigation -->
                         <ul class="navbar-nav ms-auto fs-5">
-                          <li class="nav-item dropdawn">
+                          <li class="nav-item dropdawn text-md-start text-center">
                             <a class="nav-link dropdown-toggle" id="navbarLandings" data-bs-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
                               Home
                             </a>
                           <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="navbarPages" data-bs-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
-                              Trabalhos
+                            <a class="nav-link dropdown-toggle text-md-start text-center" id="navbarPages" data-bs-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
+                              Projetos
                             </a>
                           <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="navbarAccount" data-bs-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
-                                Fale conosco
+                            <a class="nav-link dropdown-toggle text-md-start text-center" id="navbarAccount" data-bs-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
+                                Habilidades
                             </a>
-                          <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="navbarDocumentation" data-bs-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
-                              Clientes
-                            </a>
-                            <div class="dropdown-menu dropdown-menu-md" aria-labelledby="navbarDocumentation">
-                              <div class="list-group list-group-flush">
-                                <a class="list-group-item" href="#">
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle text-md-start text-center" id="navbarAccount" data-bs-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
+                                  Contato
+                              </a>
+                             
                 
                                   <div class="ms-4"></div>
                                   <div class="ms-4"></div>
@@ -100,11 +117,9 @@
     
                                 </a>
                         </ul>
-                        <a class="btn btn-success ms-auto" href="">
-                            Entrar 
+                        <a class="btn  ms-auto" href="">
                         </a>
-                        <a class="btn btn-outline-success ms-2" href="">
-                            Login
+                        <a class="btn  ms-2" href="">
                         </a>
                                
                       </div>
@@ -115,77 +130,26 @@
             </div> <!--fim da div navbar-->
         </header>
 
-        <main class="m-5 ">
-            <div> <!--início div do carroseel-->
-                <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
-                    <div class="carousel-inner rounded-3">
-                      <div class="carousel-item active">
-                        <span  class="d-block w-100 carr">
-                      </div>
-                      <div class="carousel-item">
-                        <span class="d-block w-100 carr1">
-                      </div>
-                      <div class="carousel-item">
-                        <span class="d-block w-100 carr2">
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                  </div>
-            </div><!--fim da div do carrossel-->
+        <main class="container">
+          <div class="row text-light "><!--inicio div da linha-->
+            <div class="col-12 col-md-6 ">
+              <h1 class="text-md-start text-center mt-5">
+              Oi, eu sou <span class="text-success">Leandro Araújo.</span> <br>
+                E seja bem vindo ao meu portifólio.
+              </h1>
+                <p class="opacity-25 text-md-start text-center h3">
+                  Eu sou um desenvolvedor focado em fullstack.
 
-            <div class="container"> <!--início da div da escrita-->
-                <h1 class="text-success text-center mt-3 h3 fw-bold">
-                   Fique avontade e siga em frente...
-                </h1>
-                <p class="text-muted ">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ex quo totam doloremque ipsa veniam modi, perferendis nostrum, sit laborum accusantium, qui magnam impedit. Cumque totam eum iste odit voluptates Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda itaque ipsum delectus iusto eveniet, fuga sed quas suscipit dolorem quaerat voluptatum! Cupiditate sequi aliquid magnam veniam amet vitae perspiciatis soluta.
                 </p>
-            </div> <!--fim da div da esrcrita-->
+            </div>
+            <div class="col-6 back">
+              <img src="/img-font/download-removebg-preview.png" alt="" class="astro">
+            </div>
+          </div><!--fim div da linha-->
 
-            <div class="container mt-5"> <!--início da div dos cards-->
-                <div class="card-group">
-                    <div class="row"> <!--div da linha-->
-                        <!--pirmeiro card-->
-                        <div class="card border-0 rounded col-12 col-lg-4 mb-3">
-                            <div class="card-body">
-                              <h5 class="card-title">
-                                  <i class="bi bi-balloon-fill text-danger"></i>     
-                                  Ballon</h5>
-                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                            </div>
-                          </div>
-                          <!--segundo card-->
-                          <div class="card border-0 rounded col-12 col-lg-4 mb-3 ">
-                            <div class="card-body">
-                              <h5 class="card-title">
-                                  <i class="bi bi-cash text-success"></i>    
-                                  Cash</h5>
-                              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                            </div>
-                          </div>
-                          <!--terceiro card-->
-                          <div class="card border-0 rounded col-12 col-lg-4 mb-3 ">
-                            <div class="card-body">
-                              <h5 class="card-title">
-                                  <i class="bi bi-filetype-php text-primary"></i>    
-                                  Program from PHP</h5>
-                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                            </div>
-                          </div>
-                        </div>
-                    </div> <!--fim da div da linha-->
-            </div> <!--fim da div dos cards-->
+          <div class="">
 
+          </div>
         </main>
 
 
